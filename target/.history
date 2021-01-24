@@ -1,0 +1,15 @@
+D 10 10
+run
+compile
+run
+compile
+run
+8
+run
+1
+run
+sbt
+run
+doc
+scala doc
+scaladoc

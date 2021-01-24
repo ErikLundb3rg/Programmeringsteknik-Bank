@@ -1,0 +1,21 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\erikl\OneDrive\Skrivbord\skola2020\workspace\w13_bank_proj\src\main\scala\bank\Bank.scala:35:57: missing parameter type for expanded function ((<x$1: error>) => findByNumber(account).map(x$1))[0m
+[0m[[0m[31merror[0m] [0m[0m                    var acc = findByNumber(account).map(_)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\erikl\OneDrive\Skrivbord\skola2020\workspace\w13_bank_proj\src\main\scala\bank\Bank.scala:42:57: missing parameter type for expanded function ((<x$2: error>) => findByNumber(account).map(x$2))[0m
+[0m[[0m[31merror[0m] [0m[0m                    var acc = findByNumber(account).map(_)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\erikl\OneDrive\Skrivbord\skola2020\workspace\w13_bank_proj\src\main\scala\bank\Bank.scala:51:59: missing parameter type for expanded function ((<x$3: error>) => findByNumber(accTo).map(x$3))[0m
+[0m[[0m[31merror[0m] [0m[0m                    var destAcc = findByNumber(accTo).map(_)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\erikl\OneDrive\Skrivbord\skola2020\workspace\w13_bank_proj\src\main\scala\bank\Bank.scala:52:61: missing parameter type for expanded function ((<x$4: error>) => findByNumber(accFrom).map(x$4))[0m
+[0m[[0m[31merror[0m] [0m[0m                    var fromAcc = findByNumber(accFrom).map(_)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\erikl\OneDrive\Skrivbord\skola2020\workspace\w13_bank_proj\src\main\scala\bank\Bank.scala:72:33: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Option[bank.BankAccount][0m
+[0m[[0m[31merror[0m] [0m[0m required: bank.BankAccount[0m
+[0m[[0m[31merror[0m] [0m[0m                    accounts -= acc[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\erikl\OneDrive\Skrivbord\skola2020\workspace\w13_bank_proj\src\main\scala\bank\Bank.scala:73:44: value accountNumber is not a member of Option[bank.BankAccount][0m
+[0m[[0m[31merror[0m] [0m[0m                    BankAccount.addNum(acc.accountNumber)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
